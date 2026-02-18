@@ -1,6 +1,6 @@
 public class prime {
     public static void main(String[] args){
-        int n=7;
+        int n=75;
         boolean isprime=true;
         if(n<=1){
             isprime=false;
@@ -17,7 +17,7 @@ public class prime {
         }
 
 
-        if(isprime){
+        if(isprime==true){
             System.out.println("prime");
         }
         else{
