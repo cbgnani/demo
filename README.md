@@ -262,3 +262,9 @@ Swagger Documentation
 Day 44
 
 Spring Security basics
+
+
+git status
+git add .
+git commit -m "give any message"
+git push
