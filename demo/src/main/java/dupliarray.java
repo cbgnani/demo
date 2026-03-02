@@ -9,7 +9,7 @@ public class dupliarray {
                     break;
                 }
             }
-            if(duplicate==true){
+            if(duplicate==false){
                 System.out.print(n[i]+" ");
             }
         }
