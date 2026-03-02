@@ -12,9 +12,6 @@ public class dupliarray {
             if(duplicate==true){
                 System.out.print(n[i]+" ");
             }
-
         }
-
     }
-
 }
