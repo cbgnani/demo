@@ -1,7 +1,7 @@
 public class Asearch {
     public static void main(String[] args){
         int n[]={12,26,34,46,59};
-        int key=3;
+        int key=34;
         boolean found=true;
         for(int i=0;i<n.length;i++) {
             if (key == n[i]) {

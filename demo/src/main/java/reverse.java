@@ -1,6 +1,5 @@
 public class reverse {
     public static void main(String[] args){
-        /*
         int n[]={1,2,3,4,5};
         int o[]={1,2,3,4,5};
         int len=n.length;
@@ -21,8 +20,7 @@ public class reverse {
             System.out.print(n[i]+" ");
     }
 
-         */
-        String a="nksdnn";
+       /* String a="nksdnn";
         int len=a.length();
         String rev="";
         for(int i=len-1;i>=0;i--){
@@ -33,6 +31,6 @@ public class reverse {
         }
         else{
             System.out.println("not palindrome");
-        }
+        }*/
     }
 }

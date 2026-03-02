@@ -1,11 +1,9 @@
-import java.util.Arrays;
-
-public class arrays {
+public class maxarray {
     public static void main(String[] args){
-        int n[]={19,1,34,4,88,99,101,1000,1200,58};
+        int n[]={-19,1,34,4,88,-99,101,1000,1200,58};
         int len=n.length;
-        int max=n[0];
-        int secMax=n[0];
+        int max= Integer.MIN_VALUE;
+        int secMax=Integer.MIN_VALUE;
         /*
         // without using second forloop
 
@@ -18,6 +16,7 @@ public class arrays {
                 max=n[i];
             }
         }
+         */
         //another code one
 
          for(int i=0;i<len;i++) {
@@ -29,7 +28,7 @@ public class arrays {
                 secMax = n[i];
             }
         }
-        */
+        /*
         // in built functions
 
         /*Arrays.sort(n);
@@ -37,7 +36,7 @@ public class arrays {
 
         //using second for loop
 
-        for(int i=0;i<len;i++) {
+        /*for(int i=0;i<len;i++) {
             if (n[i] > max) {
                 max = n[i];
             }
@@ -46,7 +45,7 @@ public class arrays {
             if (n[i] > secMax && n[i]!=max) {
                 secMax = n[i];
             }
-        }
+        }*/
         System.out.println("maximum value : "+max);
         System.out.println("second maximum value : "+secMax);
     }
